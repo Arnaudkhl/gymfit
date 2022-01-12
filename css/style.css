@@ -3233,8 +3233,8 @@ ol {
 	.text-404 .search-404 {
 		width: 100%;
 	}
-	.search-model-form input {
-		width: 100%;
+	.primary-btn{
+		background-color:#f36100;
 	}
 }
 
