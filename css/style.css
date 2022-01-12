@@ -37,7 +37,8 @@ body {
 	height: 100%;
 	font-family: "Muli", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+	-font-smoothing: antialiased;
+	background-color:black;
 }
 
 h1,
@@ -3277,3 +3278,4 @@ ol {
 		width:50%;
 	  }
 }
+ 
