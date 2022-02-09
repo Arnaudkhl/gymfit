@@ -197,6 +197,11 @@ ol {
 	border-color: #f36100;
 }
 
+.register{
+	display:flex;
+	justify-content: space-between;
+
+}
 /* Preloder */
 
 #preloder {
@@ -1171,8 +1176,8 @@ ol {
 }
 
 .fs-about .fa-social a {
-	font-size: 14px;
-	color: #c4c4c4;
+	font-size: 30px;
+	color: #f361006c;
 	margin-right: 10px;
 }
 
@@ -1246,11 +1251,24 @@ ol {
 	border-top: 1px solid #1a1a1a;
 	padding: 25px 0;
 	margin-top: 15px;
+	
+	
 }
 
 .copyright-text a,
 .copyright-text i {
-	color: #f36100;
+	color: #f36100a9;
+	margin: 15px;
+	
+}
+.partner img{
+	width: 180px;
+	margin: 10px;
+}
+.mention p,h5,h2{
+	margin: 15px;
+	padding-top: 15px;
+	font-size: 15px;	
 }
 
 /* ----------------------------------- Other Pages Styles ----------------------------------- */
@@ -2123,6 +2141,10 @@ ol {
 	font-weight: 600;
 	line-height: 28px;
 }
+h3{
+	color: orange;
+	margin: 55px;
+}
 
 .blog-item .bi-text ul {
 	margin-bottom: 18px;
@@ -2773,8 +2795,13 @@ ol {
 .text-404 a i {
 	color: #f36100;
 	margin-right: 5px;
+	
 }
 
+.inscris{
+	
+	
+}
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
 @media only screen and (min-width: 1650px) and (max-width: 1920px) {
@@ -3008,7 +3035,7 @@ ol {
 	
 }
 
-/* Wide Mobile = 480px */
+/*  Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
 	.offcanvas-menu-overlay {
@@ -3034,7 +3061,7 @@ ol {
 		font-size: 22px;
 		width: 30px;
 		height: 30px;
-		color: #ffffff;
+		color: #000000;
 		border: 1px solid #ffffff;
 		border-radius: 2px;
 		line-height: 29px;
@@ -3054,8 +3081,6 @@ ol {
 		height: 100%;
 		opacity: 0;
 		visibility: hidden;
-		-webkit-transition: all 0.5s;
-		-o-transition: all 0.5s;
 		transition: all 0.5s;
 		padding: 50px 30px 30px 30px;
 		display: block;
